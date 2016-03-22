@@ -1,0 +1,91 @@
+html,
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', 'Monaco', 'Monospace';
+    -webkit-font-smoothing: antialiased;
+}
+
+.Footer {
+    margin: 120px 0 60px;
+    font-size: 1.4rem;
+    color: rgb(119, 119, 119);
+    text-align: center;
+}
+
+.Footer a {
+    color: rgb(119, 119, 119);
+}
+
+.index {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.index .logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 80px auto 0;
+}
+
+.index h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(52, 49, 58);
+    margin-bottom: 0;
+}
+
+.index h1 span {
+    font-size: 1.4rem;
+    background-color: #53B5FA;
+    color: white;
+    padding: 0px 6px;
+    border-radius: 4px;
+    position: absolute;
+    transform: translateX(20px);
+}
+
+.index .subtitle {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(119, 119, 119);
+    margin: 0 0 60px;
+}
+
+.index .version-require {
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(119, 119, 119);
+}
+
+.index .store-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.index .gallery {
+    margin: 60px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index .gallery img {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 290px;
+    border-radius: 4px;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2);
+}
