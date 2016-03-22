@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="165px" height="40px" viewBox="0 0 165 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>mas</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mas">
+            <g id="Group">
+                <path d="M160.271,39.989 L4.729,39.989 C2.122,39.989 0,37.872 0,35.268 L0,4.727 C0,2.12 2.122,0 4.729,0 L160.271,0 C162.875,0 165,2.12 165,4.727 L165,35.268 C165.001,37.872 162.876,39.989 160.271,39.989 L160.271,39.989 L160.271,39.989 Z" id="Shape" fill="#94D3FF"></path>
+                <path d="M164.105,35.268 C164.105,37.384 162.391,39.098 160.271,39.098 L4.729,39.098 C2.61,39.098 0.89,37.384 0.89,35.268 L0.89,4.725 C0.89,2.61 2.61,0.891 4.729,0.891 L160.271,0.891 C162.392,0.891 164.105,2.61 164.105,4.725 L164.105,35.268 L164.105,35.268 L164.105,35.268 Z" id="Shape" fill="#53B5FA"></path>
+                <text id="Get-the" font-family="HelveticaNeue, Helvetica Neue" font-size="9" font-weight="normal" letter-spacing="0.112499997" fill="#FFFFFF">
+                    <tspan x="44.26975" y="13">Get the</tspan>
+                </text>
+                <text id="Free-beta" font-family="HelveticaNeue, Helvetica Neue" font-size="18" font-weight="normal" letter-spacing="0.225000024" fill="#FFFFFF">
+                    <tspan x="44" y="31">Free beta</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="android-download" transform="translate(8.000000, 11.000000)" fill="#FFFFFF">
+            <g id="Layer_1">
+                <path d="M24.0190701,7.5625625 C23.1499194,3.250125 19.4260518,0 14.8954704,0 C11.2958558,0 8.19263284,2.062375 6.64102134,5.0625625 C2.91715375,5.437625 0,8.624875 0,12.5 C0,16.62475 3.35141877,20 7.44773519,20 L23.5844948,20 C26.9980401,20 29.7909408,17.1875 29.7909408,13.75 C29.7909408,10.437625 27.2465462,7.7499375 24.0190701,7.5625625 L24.0190701,7.5625625 Z M12.9094077,10.75 L12.9094077,6 L16.8815331,6 L16.8815331,10.75 L21.1019164,10.75 L14.8954704,17 L8.68902439,10.75 L12.9094077,10.75 L12.9094077,10.75 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
