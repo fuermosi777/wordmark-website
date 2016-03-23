@@ -33,6 +33,7 @@ body {
     max-width: 1100px;
     margin: 0 auto;
 }
+
 .index .logo {
     width: 100px;
     height: 100px;
@@ -101,4 +102,15 @@ body {
     color: rgb(119, 119, 119);
     padding-top: 60px;
     margin-bottom: 60px;
+}
+
+.index .support {
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.index .support a {
+    color: rgb(119, 119, 119);
+    font-size: 1.4rem;
 }
