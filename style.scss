@@ -1,6 +1,8 @@
----
----
+--- 
+--- 
 
+$color-gray: rgba(119, 119, 119, 1);
+$color-dark-gray: #34313a;
 html,
 body {
     margin: 0;
@@ -22,100 +24,111 @@ body {
 }
 
 .Footer {
-    margin: 120px 0 60px;
+    margin: 0 0 60px;
     font-size: 1.4rem;
-    color: rgb(119, 119, 119);
+    color: $color-gray;
     text-align: center;
+    a {
+        color: $color-gray;
+    }
 }
 
-.Footer a {
-    color: rgb(119, 119, 119);
+.Nav {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    margin: 0 auto 40px;
+    a {
+        color: $color-gray;
+        font-size: 1.4rem;
+    }
 }
 
 .index {
     max-width: 1100px;
     margin: 0 auto;
+    .logo {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 80px auto 0;
+    }
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        font-weight: normal;
+        color: $color-dark-gray;
+        margin-bottom: 0;
+        span {
+            font-size: 1.4rem;
+            background-color: #53B5FA;
+            color: white;
+            padding: 0px 6px;
+            border-radius: 4px;
+            position: absolute;
+            transform: translateX(20px);
+        }
+    }
+    .subtitle {
+        text-align: center;
+        font-size: 2rem;
+        color: $color-gray;
+        margin: 0 0 60px;
+    }
+    .version-require {
+        text-align: center;
+        font-size: 1.4rem;
+        color: $color-gray;
+    }
+    .store-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 340px;
+        margin: 0 auto;
+    }
+    .store-link:hover {
+        transition: all 0.2s;
+        opacity: 0.8;
+    }
+    .gallery {
+        margin: 60px 0 0;
+        display: flex;
+        justify-content: space-between;
+        img {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            height: 290px;
+            border-radius: 4px;
+            box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2);
+        }
+    }
+    h2 {
+        text-align: center;
+        color: $color-gray;
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+
 }
 
-.index .logo {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: 80px auto 0;
-}
-
-.index h1 {
-    font-size: 4rem;
-    text-align: center;
-    font-weight: normal;
-    color: rgb(52, 49, 58);
-    margin-bottom: 0;
-}
-
-.index h1 span {
-    font-size: 1.4rem;
-    background-color: #53B5FA;
-    color: white;
-    padding: 0px 6px;
-    border-radius: 4px;
-    position: absolute;
-    transform: translateX(20px);
-}
-
-.index .subtitle {
-    text-align: center;
-    font-size: 2rem;
-    color: rgb(119, 119, 119);
-    margin: 0 0 60px;
-}
-
-.index .version-require {
-    text-align: center;
-    font-size: 1.4rem;
-    color: rgb(119, 119, 119);
-}
-
-.index .store-buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 340px;
+.Posts {
+    max-width: 800px;
     margin: 0 auto;
+    .post {}
 }
 
-.index .store-link:hover {
-    transition: all 0.2s;
-    opacity: 0.8;
-}
-
-.index .gallery {
-    margin: 60px 0 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.index .gallery img {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    height: 290px;
-    border-radius: 4px;
-    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2);
-}
-
-.index h2 {
-    text-align: center;
-    color: rgb(119, 119, 119);
-    padding-top: 60px;
-    margin-bottom: 60px;
-}
-
-.index .support {
-    text-align: center;
-    padding-top: 40px;
-    margin-bottom: 40px;
-}
-
-.index .support a {
-    color: rgb(119, 119, 119);
-    font-size: 1.4rem;
+.Page,
+.Post {
+    max-width: 800px;
+    margin: 0 auto;
+    h1 {
+        font-size: 4rem;
+        color: $color-gray;
+    }
+    .entry {
+        color: $color-dark-gray;
+        font-size: 1.4rem;
+    }
 }
 
 @import "highlights";
