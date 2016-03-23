@@ -2,17 +2,19 @@
 layout: default 
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div class="index">
+    <img src="{{ site.baseurl }}/images/logo.png" class="logo" />
+    <h1>WordMark 2 <span class="badge">beta</span></h1>
+    <p class="subtitle">A lightweight Markdown editor for writers of Wordpress, Ghost, and Medium</p>
+    <div class="store-buttons">
+        <a href="https://itunes.apple.com/us/app/wordmark/id1056952503?mt=12" class="store-link"><img src="{{ site.baseurl }}/images/mas.svg" /></a>
+        <a href="https://github.com/fuermosi777/wordmark-website/releases/tag/2.0.0" class="store-link"><img src="{{ site.baseurl }}/images/free.svg" /></a>
+    </div>
+    <p class="version-require">Requires OS X 10.10 Yosemite</p>
+    <div class="gallery">
+        <img src="{{ site.baseurl }}/images/s1.png" />
+        <img src="{{ site.baseurl }}/images/s2.png" />
+        <img src="{{ site.baseurl }}/images/s3.png" /> 
+    </div>
+    <p class="support"><a href="mailto:liuhao1990@gmail.com">Support</a></p>
 </div>
