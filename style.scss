@@ -1,8 +1,9 @@
 ---
 ---
 
-$color-gray: #ccc;
-$color-dark-gray: #34313a;
+$color-light-gray: #ccc;
+$color-gray: #34313a;
+$color-dark-gray: #323234;
 
 html,
 body {
@@ -75,7 +76,7 @@ body {
     .normal {
         text-align: center;
         font-size: 1.4rem;
-        color: $color-gray;
+        color: $color-light-gray;
     }
     .download,
     .buttons {
@@ -131,7 +132,7 @@ body {
     margin: 0 auto;
     h1 {
         font-size: 4rem;
-        color: white;
+        color: $color-dark-gray;
     }
     .entry {
         color: $color-gray;
