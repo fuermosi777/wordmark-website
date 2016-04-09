@@ -25,6 +25,7 @@ body {
 }
 
 .Footer {
+    padding-top: 60px;
     margin: 0 0 60px;
     font-size: 1.4rem;
     color: $color-gray;
@@ -35,14 +36,24 @@ body {
 }
 
 .Nav {
-    max-width: 340px;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 120px;
-    margin: 0 auto 40px;
+    padding: 20px 0;
+    background: #1e1e20; /* Old browsers */
+    background: -moz-linear-gradient(top, #19191a 0%, #1e1e20 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #19191a 0%,#1e1e20 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #19191a 0%,#1e1e20 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    .links {
+        width: 400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
     a {
-        color: $color-gray;
-        font-size: 1.4rem;
+        color: $color-light-gray;
+        text-decoration: none;
+        font-size: 1.6rem;
+        &:hover {
+            color: white;
+        }
     }
 }
 
@@ -58,7 +69,7 @@ body {
         width: 100px;
         height: 100px;
         display: block;
-        margin: 80px auto 0;
+        margin: 60px auto 0;
     }
     h1 {
         font-size: 5rem;
@@ -109,7 +120,7 @@ body {
 }
 
 .Introduction {
-    margin-top: -100px;
+    margin-top: -140px;
     .screenshot {
         max-width: 1000px;
         margin: 0 auto;
