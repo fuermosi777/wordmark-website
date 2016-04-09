@@ -2,19 +2,28 @@
 layout: default 
 ---
 
-<div class="index">
+<div class="Hero">
     <img src="{{ site.baseurl }}/images/logo.png" class="logo" />
-    <h1>WordMark 2 <span class="badge">beta</span></h1>
-    <p class="subtitle">A Markdown editor for writers of Mac/Windows</p>
-    <div class="store-buttons">
-        <a href="https://github.com/wordmark/wordmark/releases/download/v2.0.1/wordmark-mac-2.0.1.zip" class="store-link fill">Download for Mac</a>
-        <a href="https://github.com/wordmark/wordmark/releases/download/v2.0.1/wordmark-win-2.0.1.zip" class="store-link fill">Download for Windows</a>
-    </div>
-    <p class="version-require">v2.0.1, requires OS X 10.10 Yosemite or Windows 10.0</p>
-    <p class="other-download"><a href="https://itunes.apple.com/us/app/wordmark/id1056952503?mt=12">Get v1.2.2 on the Mac App Store</a></p>
-    <div class="gallery">
-        <img src="{{ site.baseurl }}/images/s1.png" />
-        <img src="{{ site.baseurl }}/images/s2.png" />
-        <img src="{{ site.baseurl }}/images/s3.png" /> 
-    </div>
+    <h1>WordMark 2</h1>
+    <p class="subtitle">A lightweight Markdown editor for writers of Mac/Windows/Linux</p>
+    <p class="normal download">
+        <button class="download-button" onClick="javascript: toggleButtons()">Download v2.0.2</button>
+    </p>
+    <p class="normal buttons hide">
+        <a class="download-button" href="https://github.com/wordmark/wordmark/releases/download/v2.0.2/WordMark-darwin-x64.zip">For Mac</a>
+        <a class="download-button" href="https://github.com/wordmark/wordmark/releases/download/v2.0.2/WordMark-win32-x64.zip">Windows x64</a>
+        <a class="download-button" href="https://github.com/wordmark/wordmark/releases/download/v2.0.2/WordMark-win32-ia32.zip">Windows x32</a>
+        <a class="download-button" href="https://github.com/wordmark/wordmark/releases/download/v2.0.2/WordMark-linux-x64.zip">Linux x64</a>
+    </p>
+    <p class="normal">Requires OS X 10.9 Mavericks / Windows 7 / Ubuntu 12.04</p>
 </div>
+<div class="Introduction">
+    <img class="screenshot" src="{{ site.baseurl }}/images/s1.png" />
+</div>
+
+<script>
+    function toggleButtons() {
+        document.querySelector('.download').classList.toggle('hide');
+        document.querySelector('.buttons').classList.toggle('hide');
+    }
+</script>

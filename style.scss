@@ -15,10 +15,6 @@ html {
 
 body {
     line-height: 1.6;
-    background: #1e1e20; /* Old browsers */
-background: -moz-linear-gradient(top, #1e1e20 0%, #4a4a4a 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #1e1e20 0%,#4a4a4a 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #1e1e20 0%,#4a4a4a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 * {
@@ -49,9 +45,14 @@ background: linear-gradient(to bottom, #1e1e20 0%,#4a4a4a 100%); /* W3C, IE10+, 
     }
 }
 
-.index {
-    max-width: 1100px;
+.Hero {
+    overflow-y: hidden;
     margin: 0 auto;
+    height: 640px;
+    background: #1e1e20; /* Old browsers */
+    background: -moz-linear-gradient(top, #1e1e20 0%, #4a4a4a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e1e20 0%,#4a4a4a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e1e20 0%,#4a4a4a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     .logo {
         width: 100px;
         height: 100px;
@@ -64,62 +65,37 @@ background: linear-gradient(to bottom, #1e1e20 0%,#4a4a4a 100%); /* W3C, IE10+, 
         font-weight: normal;
         color: white;
         margin-bottom: 20px;
-        span {
-            font-size: 1.4rem;
-            background-color: #53B5FA;
-            color: white;
-            padding: 0px 6px;
-            border-radius: 4px;
-            position: absolute;
-            transform: translateX(20px);
-        }
     }
     .subtitle {
         text-align: center;
         font-size: 2rem;
         color: white;
-        margin: 0 0 60px;
+        margin: 0 0 40px;
     }
-    .version-require {
+    .normal {
         text-align: center;
         font-size: 1.4rem;
         color: $color-gray;
     }
-    .store-buttons {
-        display: flex;
-        justify-content: space-between;
-        width: 400px;
-        margin: 0 auto;
+    .download,
+    .buttons {
+        &.hide {
+            display: none;
+        }
     }
-    .store-link {
+    .download-button {
+        cursor: pointer;
         display: inline-block;
-        padding: 10px 18px;
+        padding: 15px 15px;
+        margin: 0 auto;
         background-color: #4A90E2;
         color: white;
         text-decoration: none;
         font-size: 1.6rem;
         border-radius: 2px;
+        border: none;
         &:hover {
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-        }
-    }
-    .other-download {
-        text-align: center;
-        font-size: 1.4rem;
-        margin: 20px 0;
-        a {
-            color: $color-gray; 
-        }
-    }
-    .gallery {
-        margin: 60px 0 0;
-        display: flex;
-        justify-content: space-between;
-        img {
-            border: 1px solid rgba(0, 0, 0, 0.2);
-            height: 290px;
-            border-radius: 4px;
-            box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2);
         }
     }
     h2 {
@@ -129,6 +105,18 @@ background: linear-gradient(to bottom, #1e1e20 0%,#4a4a4a 100%); /* W3C, IE10+, 
         margin-bottom: 60px;
     }
 
+}
+
+.Introduction {
+    margin-top: -100px;
+    .screenshot {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    }
 }
 
 .Posts {
