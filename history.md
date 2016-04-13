@@ -34,3 +34,28 @@ permalink: /history/
 
 - Change file management system, allow users to create/edit/save markdown files in thte side bar
 - Add drag-and-drop to open file feature
+
+## v1.2.2:
+
+- Fixed adjusting window causing editor crashes
+- Fixed WordPress invalid first author bug
+
+## v1.2.1:
+
+- Fixed empty category causing "Unknown error" bug
+
+## v1.2.0:
+
+- Added custom font size in the editor
+- Changed publish section UI
+- Fixed incorrect URL bugs
+
+## v1.1.0
+
+- Add export to HTML option
+- Add export to PDF option
+- Fix "category" cannot be separated by white space
+
+## v1.0.0
+
+- First release

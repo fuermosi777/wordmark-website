@@ -5,7 +5,7 @@
 name: WordMark
 
 # Short bio or description (displayed in the header)
-description: official website
+description: A lightweight markdown editor for Mac/Windows/Linux
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
