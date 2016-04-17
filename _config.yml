@@ -10,6 +10,8 @@ description: A lightweight markdown editor for Mac/Windows/Linux
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
+
+wordmark_version: 2.1.0
 #
 # Flags below are optional
 #

@@ -1,3 +1,6 @@
+---
+---
+
 {
-    "latestVersion": "2.0.2"
+    "latestVersion": "{{ site.wordmark_version }}"
 }

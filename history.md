@@ -4,6 +4,16 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.0 (4/16/2016)
+
+- Add option to add image services for Wordpress and Ghost platform
+- Allow adding Gist for Github
+- Add Jekyll support
+- Allow right-click menu in editor
+- Fix table freeze bug
+- Update Markdown parser
+- Minor UI fix
+
 ## v2.0.2 (4/8/2016)
 
 - Improves performance of resizing
