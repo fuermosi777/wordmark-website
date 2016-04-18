@@ -4,6 +4,11 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.1 (4/18/2016)
+
+- Fix open file no preview bug
+- Fix Github publishing Chinese error
+
 ## v2.1.0 (4/16/2016)
 
 - Add option to add image services for Wordpress and Ghost platform
