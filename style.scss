@@ -42,7 +42,7 @@ body {
     background: -webkit-linear-gradient(top, #19191a 0%,#1e1e20 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #19191a 0%,#1e1e20 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     .links {
-        width: 400px;
+        max-width: 460px;
         margin: 0 auto;
         display: flex;
         justify-content: space-around;
@@ -134,7 +134,24 @@ body {
 .Posts {
     max-width: 800px;
     margin: 0 auto;
-    .post {}
+    .post {
+        margin-top: 80px;
+        h1 {
+            font-size: 2rem;
+            a {
+                color: #4A90E2;
+                text-decoration: none;
+            }
+        }
+        .entry {
+            font-size: 1.6rem;
+            color: $color-gray;
+        }
+        .read-more {
+            font-size: 1.4rem;
+            color: #4A90E2;
+        }
+    }
 }
 
 .Page,
@@ -147,6 +164,9 @@ body {
     }
     .entry {
         color: $color-gray;
+        font-size: 1.6rem;
+    }
+    .date {
         font-size: 1.4rem;
     }
 }
