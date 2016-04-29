@@ -4,6 +4,18 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.2 (4/29/2016)
+
+- Allow multiple Github accounts
+- Add Tumblr
+- Add Dropbox
+- Add a new theme for Preview section
+- UI improvement
+- Add Import from HTML function
+- Add word count
+- Add css styles for exporting PDF
+- New shortcuts (zoom in/out)
+
 ## v2.1.1 (4/18/2016)
 
 - Fix open file no preview bug
