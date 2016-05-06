@@ -4,6 +4,11 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.3 (5/6/2016)
+
+- Fix sidebar click bug
+- Update download links
+
 ## v2.1.2 (4/29/2016)
 
 - Allow multiple Github accounts
