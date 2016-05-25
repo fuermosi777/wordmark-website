@@ -4,6 +4,14 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.4 (5/25/2016)
+
+- Fix customize font bug
+- Fix Ghost uploading JPG bug
+- Allow Ghost and Wordpress to update published posts
+- Fix Ghost HTTPS bug
+- Add Yosemite color theme
+
 ## v2.1.3 (5/6/2016)
 
 - Fix sidebar click bug
