@@ -4,6 +4,16 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.6 (6/7/2016)
+
+- Assign "# xxx" as post title in publishing panel
+- Allow paste and upload images to the editor
+- Fix Ghost draft preview URL
+- Fix Wordpress HTTPS not addable bug
+- Update UI
+- Add folder management in sidebar
+- Upgrade Electron core to 1.2
+
 ## v2.1.4 (5/25/2016)
 
 - Fix customize font bug
