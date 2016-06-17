@@ -4,6 +4,15 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.7 (6/17/2016)
+
+- Highlight code blocks in preview section. Will add color styles in the following updates.
+- Add Table of Contents. Adding "[TOC]" in the document and the it will be generated in preview
+- Fixed Github adding root directory bug
+- Fixed language auto change bug
+- Fixed PDF exporting crash bug. For exporting large file, expect more time to generate the PDF file.
+- Fixed cursor wrong position bug
+
 ## v2.1.6 (6/7/2016)
 
 - Assign "# xxx" as post title in publishing panel
