@@ -4,6 +4,12 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.9 (7/5/2016)
+
+- Add language pack (traditional Chinese)
+- Add Email service. Now you can send Emails using Markdown.
+- Add Vim mode
+
 ## v2.1.7 (6/17/2016)
 
 - Highlight code blocks in preview section. Will add color styles in the following updates.
