@@ -4,6 +4,12 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.11 (7/7/2016)
+
+- Fix cannot save document bug
+- Add Notebook color theme
+- Fix editor width bug
+
 ## v2.1.9 (7/5/2016)
 
 - Add language pack (traditional Chinese)
