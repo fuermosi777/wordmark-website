@@ -4,6 +4,10 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.12 (7/13/2016)
+
+- Some UI improvements
+
 ## v2.1.11 (7/7/2016)
 
 - Fix cannot save document bug
