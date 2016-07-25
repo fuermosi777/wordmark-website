@@ -4,6 +4,14 @@ title: History
 permalink: /history/
 ---
 
+## v2.1.13 (7/25/2016)
+
+- Add post slug field for Wordpress
+- Fix version information incorrect bug
+- Add "add folder" button
+- Add outline function. Click "menu" icon in the bottom bar to view outline.
+- Add licenses for packages
+
 ## v2.1.12 (7/13/2016)
 
 - Some UI improvements
