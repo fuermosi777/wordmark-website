@@ -90,6 +90,13 @@ body {
         text-align: center;
         font-size: 1.4rem;
         color: $color-light-gray;
+        a {
+            color: #4A90E2;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
     .download,
     .buttons {
