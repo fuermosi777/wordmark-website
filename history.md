@@ -4,6 +4,15 @@ title: History
 permalink: /history/
 ---
 
+## v2.2.0 (7/27/2016)
+
+- Publishing to Evernote or Yinxiang can have images now
+- Update editor engine
+- Fixed incorrect cursor position when entering some Chinese characters
+- When publishing to Evernote, must use valid URLs in all links and images
+- Allow Github to update existing posts
+- Make Update dialog un-dissmissable
+
 ## v2.1.13 (7/25/2016)
 
 - Add post slug field for Wordpress
