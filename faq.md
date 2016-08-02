@@ -21,3 +21,20 @@ If WordMark is not working properly, you might need to reset the WordMark by fol
 ### 3. Restart WordMark
 
 Notice: you will lose all unsaved posts, save them before resetting.
+
+## How to setup font?
+
+Open "Configuration" and select "Appearence". In "Editor font" section, you can either enter the font you like or select a font from drop-down list.
+
+## How to setup Email?
+
+Use Gmail as an example:
+
+```
+SMTP server: smtp.gmail.com
+Email: example@gmail.co
+Name: <Give it a name>
+Password: <password>
+```
+
+> Even though Gmail is the fastest way to get started with sending emails, it is by no means a preferable solution unless you are using OAuth2 authentication. Gmail expects the user to be an actual user not a robot so it runs a lot of heuristics for every login attempt and blocks anything that looks suspicious to defend the user from account hijacking attempts. For example you might run into trouble if your server is in another geographical location – everything works in your dev machine but messages are blocked in production. [Read more](http://nodemailer.com/using-gmail/)
