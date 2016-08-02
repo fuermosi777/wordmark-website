@@ -4,6 +4,12 @@ title: History
 permalink: /history/
 ---
 
+## v2.2.1 (8/2/2016)
+
+- Improve performance
+- Fix incorrect cursor position bug
+- Fix Wordpress history record bug
+
 ## v2.2.0 (7/27/2016)
 
 - Publishing to Evernote or Yinxiang can have images now
