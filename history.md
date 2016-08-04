@@ -4,6 +4,12 @@ title: History
 permalink: /history/
 ---
 
+## v2.2.2 (8/4/2016)
+
+- Add published date option in Wordpress publishing
+- Add option to enable Tex math syntax
+- Add option to allow relative paths of images in Preview
+
 ## v2.2.1 (8/2/2016)
 
 - Improve performance

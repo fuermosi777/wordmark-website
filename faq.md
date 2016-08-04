@@ -38,3 +38,9 @@ Password: <password>
 ```
 
 > Even though Gmail is the fastest way to get started with sending emails, it is by no means a preferable solution unless you are using OAuth2 authentication. Gmail expects the user to be an actual user not a robot so it runs a lot of heuristics for every login attempt and blocks anything that looks suspicious to defend the user from account hijacking attempts. For example you might run into trouble if your server is in another geographical location – everything works in your dev machine but messages are blocked in production. [Read more](http://nodemailer.com/using-gmail/)
+
+## How to use relative image path in Preview?
+
+Open "Configurations" and in "General" tab check "on" in "Enable relative path". Note that the relative path will only work when the markdown file has been saved somewhere in the operating system because otherwise WordMark does not know whom the image is relative to.
+
+Also, even though you can see the images in Preview locally, however, it might not show correctly when you publish the post in most circumstances.
