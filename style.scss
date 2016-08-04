@@ -156,13 +156,14 @@ body {
     margin: 0 auto;
     .post {
         margin-top: 80px;
+        a {
+            color: #4A90E2;
+            text-decoration: none;
+        }
         h1 {
             font-size: 2rem;
-            a {
-                color: #4A90E2;
-                text-decoration: none;
-            }
         }
+        
         .entry {
             font-size: 1.6rem;
             color: $color-gray;
@@ -186,9 +187,23 @@ body {
         font-size: 4rem;
         color: $color-dark-gray;
     }
+    h2 {
+        text-decoration: underline;
+    }
+    blockquote {
+        font-style: italic;
+        background-color: #EFEFEF;
+        margin: 0;
+        padding: 20px 20px 20px 40px;
+        border-left: 4px solid #DDDDDD;
+    } 
     .entry {
         color: $color-gray;
         font-size: 1.6rem;
+        a {
+            color: #4A90E2;
+            text-decoration: none;
+        }
     }
     .date {
         font-size: 1.4rem;

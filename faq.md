@@ -43,4 +43,6 @@ Password: <password>
 
 Open "Configurations" and in "General" tab check "on" in "Enable relative path". Note that the relative path will only work when the markdown file has been saved somewhere in the operating system because otherwise WordMark does not know whom the image is relative to.
 
+![Untitled Image](https://raw.githubusercontent.com/fuermosi777/wordmark-website/gh-pages/images/Users/hao/Desktop/relative-path.png)
+
 Also, even though you can see the images in Preview locally, however, it might not show correctly when you publish the post in most circumstances.
