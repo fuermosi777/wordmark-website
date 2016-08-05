@@ -26,6 +26,8 @@ Notice: you will lose all unsaved posts, save them before resetting.
 
 Open "Configuration" and select "Appearence". In "Editor font" section, you can either enter the font you like or select a font from drop-down list.
 
+![Untitled Image](https://raw.githubusercontent.com/fuermosi777/wordmark-website/gh-pages/images/Users/hao/Library/Application%20Support/WordMark/tempClipboardImage.png)
+
 ## How to setup Email?
 
 Use Gmail as an example:
@@ -46,3 +48,60 @@ Open "Configurations" and in "General" tab check "on" in "Enable relative path".
 ![Untitled Image](https://raw.githubusercontent.com/fuermosi777/wordmark-website/gh-pages/images/Users/hao/Desktop/relative-path.png)
 
 Also, even though you can see the images in Preview locally, however, it might not show correctly when you publish the post in most circumstances.
+
+## How to use shortcuts?
+
+WordMark supports following shortcuts (more are coming).
+
+**Application**
+
+- New markdown file: 
+	- macOS: Command + N
+    - Windows & Linux: Ctrl + N
+- Open Configuration:
+	- macOS: Command + ,
+    - Windows & Linux: Ctrl + ,
+- Open file or folder:
+	- macOS: Command + O
+    - Windows & Linux: Ctrl + O
+- Publish:
+	- macOS: Command + P
+    - Windows & Linux: Ctrl + P
+- Save current file:
+	- macOS: Command + S
+    - Windows & Linux: Ctrl + S
+- Close current file:
+	- macOS: Command + W
+    - Windows & Linux: Ctrl + W
+- Import HTML:
+	- macOS: Command + Shift + I
+    - Windows & Linux: Ctrl + Shift + I
+- Toggle full-screen (macOS only):
+	- macOS: Control + Command + F
+- Show Editor only:
+	- macOS: Command + 1
+    - Windows & Linux: Ctrl + 1
+- Show Sidebar:
+	- macOS: Command + 2
+    - Windows & Linux: Ctrl + 2
+- Show Preview:
+	- macOS: Command + 3
+    - Windows & Linux: Ctrl + 3
+- Zoom in/out:
+	- macOS: Command + =/-
+    - Windows & Linux: Ctrl + =/-
+
+**Editing**
+
+- Make current line or selected text bold:
+	- macOS: Command + B
+    - Windows & Linux: Ctrl + B
+- Make current line or selected text italic:
+	- macOS: Command + I
+    - Windows & Linux: Ctrl + I
+- Undo:
+	- macOS: Command + Z
+    - Windows & Linux: Ctrl + Z
+- Redo:
+	- macOS: Command + Shift + Z or Command + Y
+    - Windows & Linux: Ctrl + Shift + Z or Ctrl + Y
