@@ -4,9 +4,12 @@ title: FAQ
 permalink: /faq/
 ---
 
+* TOC
+{:toc}
+
 ## How to use License Key?
 
-A license key can be used in unlimited number of devices for unlimited length of time.
+A license key can be used in unlimited number of devices for unlimited length of time. Enjoy!
 
 ## How to reset WordMark?
 
@@ -110,6 +113,6 @@ WordMark supports following shortcuts (more are coming).
 	- macOS: Command + Shift + Z or Command + Y
     - Windows & Linux: Ctrl + Shift + Z or Ctrl + Y
 
-## Why WordMark loses all opened files and folders after reboot?
+## Why all my opened files and folders are lost after reboot?
 
 If you downloaded WordMark from the Mac App Store, you will encounter this problem. The reason is that Mac App Store's sandbox system disallow WordMark to open file or folder without user's permission. The issue is expected to be solved in the future updates. Until then, however, you can use non-MAS version WordMark. Download it from the homepage. If you already bought WordMark from the Mac App Store, feel free to send an Email to [Customer service](mailto:hi@wordmarkapp.com) to request a free license key.

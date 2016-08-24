@@ -4,6 +4,12 @@ title: History
 permalink: /history/
 ---
 
+## v2.2.4 (8/24/2016)
+
+- In MAS version, remove all opened folders and files when restart, because due to MAS Sandbox's limitation WordMark will lose access to opened folders and files. If you feel uncomfortable with it, please use non-MAS version. It is expected to be fixed in the future.
+- Fixed undo command will delete all content in the start bug
+- Add tags option when publishing to Ghost
+
 ## v2.2.2 (8/4/2016)
 
 - Add published date option in Wordpress publishing
