@@ -2,34 +2,13 @@
 layout: default 
 ---
 
-<div class="Hero">
+<div class="Full">
     <img src="{{ site.baseurl }}/images/logo.png" class="logo" />
-    <h1>WordMark 2</h1>
-    <p class="subtitle">A lightweight Markdown editor for writers of Mac/Windows/Linux</p>
-    <p class="subtitle">WordMark 3 is comming...</p>
-    <p class="normal download">
-    <button class="download-button" onClick="javascript: toggleButtons()"><i class="ion-arrow-down-a"></i> Download Trial v{{ site.wordmark_version }}</button>
-        <button class="download-button" onClick="javascript: openAppStore()"><i class="ion-social-apple"></i> Get from App Store</button>
+    <h1 class="title">WordMark 3</h1>
+    <p class="subtitle">
+        A WYSIWYG Markdown editor/publisher
+        <br>Coming 2018
+        <br>Try <a href="/wordmark-two" title="WordMark 2 link">WordMark 2</a>
     </p>
-    <p class="normal buttons hide">
-        <a class="download-button" href="https://github.com/wordmark/wordmark/releases/download/v{{ site.wordmark_version }}/WordMark-darwin-x64.zip"><i class="ion-social-apple"></i> Mac</a>
-        <a class="download-button" href="https://github.com/wordmark/wordmark/releases/download/v{{ site.wordmark_version }}/WordMark-win32-x64.zip"><i class="ion-social-windows"></i> Windows x64</a>
-        <a class="download-button" href="https://github.com/wordmark/wordmark/releases/download/v{{ site.wordmark_version }}/WordMark-win32-ia32.zip"><i class="ion-social-windows"></i> Windows x32</a>
-        <a class="download-button" href="https://github.com/wordmark/wordmark/releases/download/v{{ site.wordmark_version }}/WordMark-linux-x64.zip">Linux x64</a>
-    </p>
-    <p class="normal"><a href="https://pan.baidu.com/s/1geLCRFd">Alternative download (百度网盘)</a></p>
+    <div class="social">Follow us on <a href="https://twitter.com/WordMarkApp">Twitter</a></div>
 </div>
-<div class="Introduction">
-    <img class="screenshot" src="{{ site.baseurl }}/images/s1.png" />
-</div>
-
-<script>
-    function toggleButtons() {
-        document.querySelector('.download').classList.toggle('hide');
-        document.querySelector('.buttons').classList.toggle('hide');
-    }
-
-    function openAppStore() {
-        window.location = 'https://itunes.apple.com/us/app/wordmark/id1056952503?mt=12';
-    }
-</script>
