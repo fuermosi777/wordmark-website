@@ -4,11 +4,108 @@ layout: default
 
 <section class="jumbotron text-center">
     <div class="container">
-        <h1 class="jumbotron-heading">WordMark</h1>
-        <p class="lead text-muted">A real time Markdown editor for bloggers.</p>
+        <h1 class="jumbotron-heading">WordMark 3</h1>
+        <p class="lead text-muted">A real time Markdown editor for bloggers.<br>It supports multiple platforms, and stands out with it's beautiful design, various features, and focus on details.</p>
+        <p><a class="btn btn-lg btn-primary" href="/#download" role="button">Download</a></p>
     </div>
 </section>
 
 <div class="container">
     <img src="/images/s2.png" class="screenshot"/>
+</div>
+
+<section class="jumbotron text-center" id="features">
+    <div class="container">
+        <h1 class="jumbotron-heading">Productive Features</h1>
+        <p class="lead text-muted">WordMark supports Mac, Windows, and Linux system.</p>
+    </div>
+</section>
+
+<div class="container">
+    <div class="card-deck mb-3">
+        <div class="card box-shadow">
+            <img class="card-img-top" src="/images/s-dark-theme.png" alt="Dark theme">
+            <div class="card-body">
+                <h5 class="card-title">Multiple themes</h5>
+                <p class="card-text">Support multiple color themes</p>
+            </div>
+        </div>
+        <div class="card box-shadow">
+            <img class="card-img-top" src="/images/s-frontmatter.png" alt="Dark theme">
+            <div class="card-body">
+                <h5 class="card-title">YAML Front matter</h5>
+                <p class="card-text">Recognize YAML Front matter</p>
+            </div>
+        </div>
+        <div class="card box-shadow">
+            <img class="card-img-top" src="/images/s-publish-github.png" alt="Dark theme">
+            <div class="card-body">
+                <h5 class="card-title">Publishing</h5>
+                <p class="card-text">Quick publish to multiple platforms including Wordpress and GitHub pages</p>
+            </div>
+        </div>
+    </div>
+    <div class="card-deck mb-3">
+            <div class="card box-shadow">
+                <img class="card-img-top" src="/images/s-upload-wordpress.png" alt="Dark theme">
+                <div class="card-body">
+                    <h5 class="card-title">Upload images</h5>
+                    <p class="card-text">Drag and drop to upload to pre-selected image services</p>
+                </div>
+            </div>
+            <div class="card box-shadow">
+                <img class="card-img-top" src="/images/s-todo.png" alt="Dark theme">
+                <div class="card-body">
+                    <h5 class="card-title">TODO list</h5>
+                    <p class="card-text">Easily parse TODO list</p>
+                </div>
+            </div>
+        </div>
+</div>
+
+<section class="jumbotron text-center" id="download">
+    <div class="container">
+        <h1 class="jumbotron-heading">Download</h1>
+        <p class="lead text-muted">WordMark supports Mac, Windows, and Linux system.</p>
+        <p>Latest version: {{ site.wordmark_version }}</p>
+    </div>
+</section>
+
+<div class="container">
+    <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Mac</h4>
+            </div>
+            <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Mac OS X 10.7 or later</li>
+                </ul>
+                <a href="https://github.com/wordmark/wordmark/releases/download/v{{ site.wordmark_version }}/wordmark-{{ site.wordmark_version }}-mac.zip" class="btn btn-lg btn-block btn-primary">Download</a>
+            </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Windows</h4>
+            </div>
+            <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Windows 7 or later</li>
+                </ul>
+                <a href="https://github.com/wordmark/wordmark/releases/download/v{{ site.wordmark_version }}/wordmark-setup-{{ site.wordmark_version }}.exe" class="btn btn-lg btn-block btn-primary">Download</a>
+            </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Linux</h4>
+            </div>
+            <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Ubuntu 16.04 or later</li>
+                </ul>
+                <a href="https://github.com/wordmark/wordmark/releases/download/v{{ site.wordmark_version }}/wordmark_{{ site.wordmark_version }}_amd64.deb" class="btn btn-lg btn-block btn-primary">Download deb</a>
+            </div>
+        </div>
+    </div>
+    <p><a href="https://github.com/wordmark/wordmark/releases/tag/v2.2.5" class="btn btn-outline-secondary">Older versions</a></p>
 </div>

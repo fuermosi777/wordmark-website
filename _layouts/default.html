@@ -19,18 +19,50 @@
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
         <h5 class="my-0 mr-md-auto font-weight-normal">
             <a href="/">
-                <img src="{{ site.baseurl }}/images/logo.png" class="logo"/>
+                <img src="{{ site.baseurl }}/images/logo.png" class="logo" />
             </a>
         </h5>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="#">Features</a>
-            <a class="p-2 text-dark" href="#">Download</a>
-            <a class="p-2 text-dark" href="#">Support</a>
-            <a class="p-2 text-dark" href="#">Pricing</a>
+            <a class="p-2 text-dark" href="/">WordMark</a>
+            <a class="p-2 text-dark" href="/#features">Features</a>
+            <a class="p-2 text-dark" href="/#download">Download</a>
+            <a class="p-2 text-dark" href="/faq">FAQ</a>
+            <a class="p-2 text-dark" href="/blog">Blog</a>
+            <a class="p-2 text-dark" href="https://twitter.com/WordMarkApp">Contact</a>
         </nav>
         <!-- <a class="btn btn-outline-primary" href="#">Sign up</a> -->
     </div>
     {{ content }}
+    <div class="container">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="{{ site.baseurl }}/images/logo.png" alt="" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">© 2016-2018 Hao Liu</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5></h5>
+                </div>
+                <div class="col-6 col-md">
+                    <h5></h5>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li>
+                            <a class="text-muted" href="https://liuhao.im">Author</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="https://github.com/wordmark/wordmark/issues">Issues</a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="https://github.com/wordmark/wordmark/releases">Releases</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
     {% include analytics.html %}
 </body>
 

@@ -19,6 +19,10 @@ html {
     max-width: 960px;
 }
 
+.container.gap {
+    padding-top: 1.25rem;
+}
+
 .jumbotron {
     background-color: #fff !important;
 }
@@ -29,6 +33,11 @@ html {
 
 .jumbotron-heading {
     font-weight: 300;
+}
+
+.post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
 }
 
 .screenshot {
